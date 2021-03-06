@@ -1,4 +1,4 @@
-package com.pp.member.coupon;
+package com.pp.mall.coupon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
