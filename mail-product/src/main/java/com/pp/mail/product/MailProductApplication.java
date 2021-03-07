@@ -1,9 +1,14 @@
 package com.pp.mail.product;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+//开启注册发现的一个注解
 @SpringBootApplication
+@MapperScan("com.pp.mail.product.dao")
+@EnableDiscoveryClient
 public class MailProductApplication {
 
 	public static void main(String[] args) {

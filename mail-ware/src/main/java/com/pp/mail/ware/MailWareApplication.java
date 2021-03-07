@@ -1,4 +1,4 @@
-package com.pp.ware.ware;
+package com.pp.mail.ware;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
